@@ -1,7 +1,7 @@
 import { useState } from "react";
 import gpsMarker from "./assets/gps-location-maps.svg";
 import wtLogo from "./assets/whatsapp-logo.svg";
-import MapMenu from "./components/mapMenu";
+import MapMenu from "./components/MapMenu";
 
 const App = () => {
   const [openMap, setOpenMap] = useState(false);
