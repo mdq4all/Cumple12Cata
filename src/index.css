@@ -5,13 +5,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* 
  * ----------------------------------------
  * animation fade-in
  * ----------------------------------------
  */
 
-@-webkit-keyframes fade-in {
+ @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
   }
@@ -32,14 +33,6 @@
 .fade-in {
   -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-.fade-in-2 {
-  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) 2s both;
-  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) 2s both;
-}
-.fade-in-3 {
-  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) 3s both;
-  animation: fade-in 3s cubic-bezier(0.39, 0.575, 0.565, 1) 3s both;
 }
 
 /**
@@ -126,4 +119,37 @@
   -webkit-animation: puff-in-center 2s cubic-bezier(0.47, 0, 0.745, 0.715) 1s
     both;
   animation: puff-in-center 2s cubic-bezier(0.47, 0, 0.745, 0.715) 1s both;
+}
+
+
+/* 
+ * ----------------------------------------
+ * animation fade-in-without-opacity
+ * ----------------------------------------
+ */
+
+ @-webkit-keyframes fade-in-wo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in-wo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-wo2 {
+  -webkit-animation: fade-in-wo 2s cubic-bezier(0.39, 0.575, 0.565, 1) 2s both;
+  animation: fade-in-wo 2s cubic-bezier(0.39, 0.575, 0.565, 1) 2s both;
+}
+.fade-in-wo3 {
+  -webkit-animation: fade-in-wo 2s cubic-bezier(0.39, 0.575, 0.565, 1) 3s both;
+  animation: fade-in-wo 3s cubic-bezier(0.39, 0.575, 0.565, 1) 3s both;
 }

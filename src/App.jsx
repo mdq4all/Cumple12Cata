@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <main>
-      <div className="fixed top-0 bg-beach-pattern bg-cover bg-center w-full h-screen p-4 overflow-hidden" />
+      <div className="fixed top-0 bg-beach-pattern md:bg-beach-desktop bg-cover bg-center w-full h-screen p-4 -z-10 overflow-hidden" />
       <div className="flex flex-col items-center justify-around mt-14">
         <div>
           <p className="font-playfair text-lg scale-in-center-2">
@@ -33,16 +33,18 @@ const App = () => {
           </article>
         </div>
         <div>
-          <div className="flex flex-col items-center my-10 fade-in-2">
+          <div className="flex flex-col items-center my-10 fade-in-wo2">
             <button onClick={handleClickMap}>
               <img src={gpsMarker} alt="logo marcador" width={50} />
             </button>
             <p className="font-playfair font-semibold">
               El Quincho de Migue, Ayacucho 7632
             </p>
-            <p className="py-2 font-playfair font-extrabold">No te olvides de traer la malla y el toallón!</p>
+            <p className="py-2 font-playfair font-extrabold">
+              No te olvides de traer la malla y el toallón!
+            </p>
           </div>
-          <div className="flex flex-col items-center fade-in-3">
+          <div className="flex flex-col items-center fade-in-wo3">
             <a href="whatsapp://send?phone=542235357272&text=¡Hola!">
               <img src={wtLogo} alt="whatsapp logo" width={40} />
             </a>

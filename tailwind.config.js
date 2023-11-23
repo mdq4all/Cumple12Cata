@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('assets/wall_rosas.jpg')",
+        'beach-desktop': "url('assets/bg-desktop.jpeg')",
         'beach-pattern': "url('assets/bg-playa.jpeg')"
       }
     },
     fontFamily: {
+      'playfair': ['Playfair Display', 'serif'],
       'ephesis': ['Ephesis', 'cursive'],
-      'playfair': ['Playfair Display', 'serif']
 
     },
     colors: {
