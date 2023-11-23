@@ -8,7 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('assets/wall_rosas.jpg')",
-
+        'beach-pattern': "url('assets/bg-playa.jpeg')"
       }
     },
     fontFamily: {
