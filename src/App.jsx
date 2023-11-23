@@ -37,11 +37,11 @@ const App = () => {
             <button onClick={handleClickMap}>
               <img src={gpsMarker} alt="logo marcador" width={50} />
             </button>
-            <p className="font-playfair font-semibold">
+            <p className="font-playfair font-black text-lg">
               El Quincho de Migue, Ayacucho 7632
             </p>
-            <p className="py-2 font-playfair font-extrabold">
-              No te olvides de traer la malla y el toallón!
+            <p className="py-2 font-playfair font-black text-lg">
+              No olvides de traer la malla y el toallón!
             </p>
           </div>
           <div className="flex flex-col items-center fade-in-wo3">
